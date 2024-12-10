@@ -1,0 +1,22 @@
+
+npm install --save-dev hardhat
+ 
+npx hardhat
+
+// Install globally ganache local CLI block chain
+npm install -g ganache-cli
+
+npm install ethers
+
+npm install --save-dev @nomiclabs/hardhat-ethers
+
+// Smart contract compile
+npx hardhat compile    
+
+// Smart contract deploy on ganache local block chain
+npx hardhat run scripts/deploy.js --network ganache
+
+
+// Tworzenie strony w weblow
+login : andy_mical@proton.me
+password: WebFlow91446!#
